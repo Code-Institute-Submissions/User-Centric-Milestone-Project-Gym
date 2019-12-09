@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Acme|Indie+Flower|Permanent+Marker&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +6,17 @@
 }
 
 body {
-    font-family: Lato;
     color: rgb(119, 119, 119);
 }
-
-h2 {
+h1{
+    font-family: 'Indie Flower', cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgb(85, 85, 85);
+    text-size-adjust: 120%;
+}
 
+h3{
+    font-family: 'Permanent Marker', cursive;
 }
 
 /*header*/
@@ -22,24 +24,31 @@ h2 {
 ul {
     font-size: 110%;
     list-style-type: none;
-    letter-spacing: 4px;
-}
-/*not using*/
-#logo {
-    float: left;
-    
-    background-size: 10%;
+    letter-spacing: 4px;   
 }
 
 #logo,
 #menu {
-    line-height: 75px;
+    line-height: 75px;    
 }
+/* ----- logo */
+header img{
+    float: left;
+    position: relative;
+    left: -60px;
+    top: -90px;
+    }
 
+header{
+    margin: 0;
+    padding: 0;
+}
 
 nav li {
     float: right;
     margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 nav a {
@@ -48,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 1px solid rgb(119, 119, 119);
+    border-bottom: 1px solid rgb(127, 217, 245);
 }
 
 .active{
@@ -61,19 +70,18 @@ nav a:hover {
 
 
 #hero-outer{
-  height: 600px;
+  height: 700px;
   width: 100%;
   overflow: hidden;
+
+  position: relative;
+  top: -150px;
 }
 
-#hero-image{
-    height: 600px;
+.hero-image{
+    height: 700px;
     width: 100%;
-    background: url(../img/workout1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-
+    background: url(../img/workout1.jpg) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -91,3 +99,155 @@ nav a:hover {
 }
 
 /*end hero image*/
+
+
+
+/*cover text*/
+#cover-text-1 {
+
+    font-size: 115%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(127, 217, 245, 0.7);
+
+    bottom: 60px;
+    right: 150px;
+    position: absolute;
+}
+
+#cover-text-2 {
+
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(127, 217, 245, 0.7);
+
+    Top: 60px;
+    left: 150px;
+    position: absolute;
+}
+
+
+/*cover text*/
+
+
+/*gym creed*/
+
+#gym-creed h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+    position: relative;
+    top: -100px;
+}
+
+#gym-creed{
+    height: 600px;
+    width:100%;
+    text-align:center;
+}
+
+#left-creed{
+    padding-top: 30px;
+    width: 28%;
+    float:left;
+}
+
+#right-creed{
+    padding-top: 30px;
+    width: 28%;
+    float: right;
+}
+
+#center-creed{
+    padding-top: 30px;
+    display: inline-block;
+    margin:0 auto;
+    width:44%;
+}
+
+hr {
+    border-top: 1px solid rgb(127, 217, 245);
+    width: 100%;
+    margin: 5px 0;
+}
+
+
+
+.left-creed-heading {
+    width: 33%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-creed-heading {
+    width: 33%;
+    float: left;
+    line-height:20px;
+    clear:both;
+    margin-bottom:50px;
+}
+
+.center-creed-heading {
+    width: 33%;
+    display: inline-block;
+    margin:0 auto;
+    line-height:20px;
+    clear:both;
+    margin-bottom:50px;
+}
+
+h2 {
+    color: rgb(85, 85, 85);
+    font-family: 'Acme', sans-serif;
+}
+
+.container{
+    background-color: rgba(127, 217, 245, 0.4);
+    height: 400px;
+    width: 80%;
+    overflow: hidden;
+    display: inline-block;
+}
+/* gym creed end*/
+
+/* social networks*/
+
+.footer{
+    height: 50%;
+}
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+    position: relative;
+    top: -50px;
+}
+
+.social-media i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: rgb(85, 85, 85);
+}
+
+/*end social networks*/
