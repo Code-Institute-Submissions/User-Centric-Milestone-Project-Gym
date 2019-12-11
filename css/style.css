@@ -256,7 +256,7 @@ h2 {
 
 
 .gallery-padding{
-height: 100%;
+height: auto;
 width: 100%;
 overflow: hidden;
 display: inline-block;
@@ -310,10 +310,29 @@ section img {
   transform: rotateY(180deg);
 }
 */
+
+#button {
+  background-color: rgba(127, 217, 245, 0.4);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+    top: -50px;
+    position: relative;
+}
+
+#button:hover {
+  background-color: rgba(127, 217, 245, 0.8)n;
+}
+
+
+
 /*About gallery finished*/
 
 
-/*timetable in about page*/
+/*timetable page*/
 
 #timetable{
     background-color: rgba(127, 217, 245, 0.4);
@@ -342,9 +361,15 @@ section img {
 #times div h2{
     color:rgb(85, 85, 85);
 }
-.gallery-padding,
-#timetable h1{
+.gallery-padding {
     text-align: center;
     color:rgb(85, 85, 85);
     background-color: rgba(127, 217, 245, 0.2);
+}
+
+.about-center{
+    text-align: center;
+    color:rgb(85, 85, 85);
+    top: -50px;
+    position: relative;
 }
