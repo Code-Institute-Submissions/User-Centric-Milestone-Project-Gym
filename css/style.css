@@ -263,6 +263,7 @@ display: inline-block;
 position: relative;
 bottom: 150px;
 left: 20px;
+padding-bottom: 15px;
 }
 
 
@@ -323,6 +324,7 @@ section img {
     overflow: hidden;
     margin-top: 50px;
     top: -100px;
+    padding-bottom: 15px;
 }
 
 #timetable div{
@@ -340,4 +342,9 @@ section img {
 #times div h2{
     color:rgb(85, 85, 85);
 }
-
+.gallery-padding,
+#timetable h1{
+    text-align: center;
+    color:rgb(85, 85, 85);
+    background-color: rgba(127, 217, 245, 0.2);
+}
