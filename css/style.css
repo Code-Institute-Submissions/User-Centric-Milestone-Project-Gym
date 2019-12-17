@@ -203,6 +203,19 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+    
+}
+/*on contact page*/
+.left-creed-heading-map{
+    padding-top: 50px;
+}
+
+.center-creed-heading-padding{
+    padding-top: 50px;
+}
+
+.right-creed-heading-padding{
+    padding-top: 50px;
 }
 
 .right-creed-heading {
@@ -213,6 +226,9 @@ hr {
     margin-bottom:50px;
 }
 
+.right-creed-heading p{
+    padding-bottom: 15px;
+}
 .center-creed-heading {
     width: 33%;
     display: inline-block;
@@ -220,6 +236,10 @@ hr {
     line-height:20px;
     clear:both;
     margin-bottom:50px;
+}
+
+.center-creed-heading p{
+    padding-bottom: 15px;
 }
 
 h2 {
@@ -283,6 +303,9 @@ border-radius: 15px;
 .gallery-padding img{
     border-radius: 15px;
 }
+.gallery-padding h2{
+    padding-bottom: 15px;
+}
 
 .gallery-color{
     background-color: rgba(127, 217, 245, 0.5);
@@ -343,13 +366,17 @@ button:hover::before{
 
 .contact-section{
     height: 700px;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     position: relative;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/black&whitegym.jpg) no-repeat center;    
     background-size: cover;
-    padding: 40px 0;
+    border-radius: 15px;
+    padding: 40px 0px;
     text-align: center;
+    margin: 10px;
+    left: 80px;
+    
 }
 /*^^^^txt align is not centering boxes^^^^*/
 
