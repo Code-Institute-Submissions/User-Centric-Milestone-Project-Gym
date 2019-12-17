@@ -4,18 +4,11 @@
     padding: 0;
     border: 0;
 }
-
 header{
     top: -150px;
 }
-
 body{
     color: rgb(119, 119, 119);
-    /* Trying to tidy up css
-    top: 200px;
-    overflow: hidden;
-    position: relative;
-        */
 }
 h1{
     font-family: 'Indie Flower', cursive;
@@ -23,19 +16,15 @@ h1{
     letter-spacing: 4px;
     text-size-adjust: 120%;
 }
-
 h3{
     font-family: 'Permanent Marker', cursive;
 }
-
 /*header*/
-
 ul {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;   
 }
-
 #logo,
 #menu {
     line-height: 75px;    
@@ -47,37 +36,28 @@ header img{
     left: -60px;
     top: -90px;
     }
-
 header{
     margin: 0;
     padding: 0;
 }
-
 nav li {
     float: right;
     margin-right: 30px;
     margin-top: 30px;
     margin-bottom: 0;
 }
-
 nav a {
     text-decoration: none;
     color: inherit;
 }
-
 nav a:hover {
     border-bottom: 1px solid rgb(127, 217, 245);
 }
-
 .active{
     border-bottom: 1px solid rgb(119, 119, 119);
 }
-
 /*end header*/
-
 /*hero image */
-
-
 #hero-outer{
   height: 700px;
   width: 100%;
@@ -85,18 +65,14 @@ nav a:hover {
   position: relative;
   top: -150px;
 }
-
 .hero-image{
     height: 700px;
     width: 100%;
     background: url(../img/workout1.jpg) no-repeat center center;
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
-    
+    animation-fill-mode: forwards;  
 }
-
-
 @keyframes hero-zoom{
     from{
         transform: scale(1);
@@ -105,119 +81,87 @@ nav a:hover {
         transform: scale(1.1);
     }
 }
-
 /*end hero image*/
-
-
-
 /*cover text*/
 #cover-text-1 {
-
     font-size: 115%;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 250px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(127, 217, 245, 0.7);
-
     bottom: 60px;
     right: 150px;
     position: absolute;
 }
-
 #cover-text-2 {
-
     font-size: 130%;
     text-transform: uppercase;
     letter-spacing: 4px;
-
     width: 300px;
     height: 250px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(127, 217, 245, 0.7);
-
     Top: 60px;
     left: 150px;
     position: absolute;
 }
-
-
 /*cover text*/
-
-
 /*gym creed*/
-
 #gym-creed h1{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-
     position: relative;
     top: -100px;
 }
-
 #gym-creed{
     height: 600px;
     width:100%;
     text-align:center;
 }
-
 #left-creed{
     padding-top: 30px;
     width: 28%;
     float:left;
 }
-
 #right-creed{
     padding-top: 30px;
     width: 28%;
     float: right;
 }
-
 #center-creed{
     padding-top: 30px;
     display: inline-block;
     margin:0 auto;
     width:44%;
 }
-
 hr {
     border-top: 5px solid rgb(85, 85, 85);
     width: 50%;
     margin: 5px 0;
 }
-
-
-
 .left-creed-heading {
     width: 33%;
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 50px;
-    
+    margin-bottom: 50px;    
 }
-/*on contact page*/
+/*affects contact page*/
 .left-creed-heading-map{
     padding-top: 50px;
 }
-
 .center-creed-heading-padding{
     padding-top: 50px;
 }
-
 .right-creed-heading-padding{
     padding-top: 50px;
 }
-
+/*affects contact page*/
 .right-creed-heading {
     width: 33%;
     float: left;
@@ -225,7 +169,7 @@ hr {
     clear:both;
     margin-bottom:50px;
 }
-
+/*affects contact page*/
 .right-creed-heading p{
     padding-bottom: 15px;
 }
@@ -237,16 +181,14 @@ hr {
     clear:both;
     margin-bottom:50px;
 }
-
+/*affects contact page*/
 .center-creed-heading p{
     padding-bottom: 15px;
 }
-
 h2 {
     color: rgb(85, 85, 85);
     font-family: 'Acme', sans-serif;
 }
-
 .container{
     background-color: rgba(127, 217, 245, 0.8);
     height: 400px;
@@ -255,9 +197,7 @@ h2 {
     display: inline-block;
 }
 /* gym creed end*/
-
 /* social networks*/
-
 .footer{
     height: 50%;
 }
@@ -270,18 +210,14 @@ h2 {
     position: relative;
     top: -50px;
 }
-
 .social-media i {
     font-size: 250%;
     margin: 1%;
     padding: 5%;
     color: rgb(85, 85, 85);
 }
-
 /*end social networks*/
-
 /*About gallery*/
-
 .gallery-padding{
 height: auto;
 width: 100%;
@@ -294,33 +230,25 @@ padding-top: 15px;
 padding-bottom: 25px;
 border-radius: 15px;
 }
-
 .gallery-padding {
     text-align: center;
     color:rgb(85, 85, 85);  
 }
-
 .gallery-padding img{
     border-radius: 15px;
 }
 .gallery-padding h2{
     padding-bottom: 15px;
 }
-
 .gallery-color{
     background-color: rgba(127, 217, 245, 0.5);
 }
-
-
 section img {
     border: 2px solid rgb(85, 85, 85);    
 }
-
-
 .btn-container{
     text-align: center;
 }
-
 .button {
   background-color: rgba(127, 217, 245, 0.2);
   border: 1px solid rgb(85, 85, 85);
@@ -332,17 +260,14 @@ section img {
   overflow: hidden;
   border-radius: 20px;
 }
-
 .button a{
     color: rgb(85, 85, 85);
     font-family: 'Indie Flower';
     font-size: 28px;
 }
-
 .button:hover{
   background-color: rgba(127, 217, 245);
 }
-
 .button::before{
     content: "";
     position: absolute;
@@ -355,15 +280,11 @@ section img {
     bottom: 0;
     border-radius: 50% 50% 0 0;
 }
-
 button:hover::before{
     height: 180%;
 }
-
 /*About gallery finished*/
-
 /*contact form*/
-
 .contact-section{
     height: 700px;
     width: 90%;
@@ -375,11 +296,8 @@ button:hover::before{
     padding: 40px 0px;
     text-align: center;
     margin: 10px;
-    left: 80px;
-    
+    left: 80px;    
 }
-/*^^^^txt align is not centering boxes^^^^*/
-
 .contact-section h1{
     text-align: center;
     color: white;
@@ -387,22 +305,18 @@ button:hover::before{
 .contact-section hr{
     text-align: center;
 }
-
 .border{
     width: 100px;
     height: 10px;
     background: rgba(127, 217, 245);
     margin: 40px auto;
 }
-
 .contact-form{
     max-width: 600px;
     margin: auto;
     padding: 0 10px;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
-
 .contact-form-text{
     display: inline-block;
     width: 60%;
@@ -414,17 +328,14 @@ button:hover::before{
     outline: none;
     color: #ddd;
     transition: 0.5s;
-}
- 
+} 
 .contact-form-text:focus{
     box-shadow: 0 0 10px 4px rgb(52, 73, 94);
 }
-
 textarea,contact-form-text{
     resize: none;
     height: 120px;
 }
-
 .contact-form-btn{
     position: relative;
     top: 60px;
@@ -436,10 +347,32 @@ textarea,contact-form-text{
     cursor: pointer;
     transition: O.5s;    
 }
-
 .contact-form-btn:hover{
     background: rgb(52, 73, 94)
 }
-
-
 /*contact form end*/
+/*pricing html*/
+.pricing-container{
+    height: 700px;
+    width: 75%;
+    overflow: hidden;
+    position: relative;
+    top: 150px;
+    background: rgba(127, 217, 245);
+}
+#left-test{
+    float: left;     
+    padding-top: 50px;
+    padding-left: 50px; 
+}
+#right-test{
+    float: right;  
+    padding-top: 50px;
+    padding-right: 50px; 
+}
+
+#center-test{
+    padding-top: 50px;
+    display: inline-block;
+    margin:0 auto;
+}
