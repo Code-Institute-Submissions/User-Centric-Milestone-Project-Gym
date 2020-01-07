@@ -113,8 +113,7 @@ nav a:hover {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-    position: relative;
-    top: -100px;
+    position: relative;    
 }
 #gym-creed{
     height: 600px;
