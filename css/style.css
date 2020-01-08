@@ -41,7 +41,7 @@ header{
     padding: 0;
 }
 
-/* ------- New Nav Style Mob */
+/* -------Nav Style Mob */
 
 .menu-wrap {
   position: fixed;
@@ -122,11 +122,13 @@ header{
 }
 
 /* Rotate On Hover When Checked */
+
 .menu-wrap .toggler:checked:hover + .hamburger > div {
   transform: rotate(225deg);
 }
 
 /* Show Menu */
+
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
 }
@@ -192,29 +194,8 @@ header{
     border-bottom: 1px solid whitesmoke;
 }
 
-/* - - - - Orginal Nav Setup */
-/*
-nav li {
-    float: right;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-nav a {
-    text-decoration: none;
-    color: inherit;
-}
-nav a:hover {
-    border-bottom: 1px solid rgb(127, 217, 245);
-}
-.active{
-    border-bottom: 1px solid rgb(119, 119, 119);
-}
+/*Home page hero image */
 
-/*end header*/
-
-
-/*hero image */
 #hero-outer{
   height: 700px;
   width: 100%;
@@ -222,6 +203,7 @@ nav a:hover {
   position: relative;
   
 }
+
 .hero-image{
     height: 700px;
     width: 100%;
@@ -230,6 +212,7 @@ nav a:hover {
     animation-duration: 5s;
     animation-fill-mode: forwards;  
 }
+
 @keyframes hero-zoom{
     from{
         transform: scale(1);
@@ -238,8 +221,11 @@ nav a:hover {
         transform: scale(1.1);
     }
 }
+
 /*end hero image*/
+
 /*cover text*/
+
 #cover-text-1 {
     font-size: 115%;
     text-transform: uppercase;
@@ -253,6 +239,7 @@ nav a:hover {
     right: 150px;
     position: absolute;
 }
+
 #cover-text-2 {
     font-size: 130%;
     text-transform: uppercase;
@@ -266,13 +253,39 @@ nav a:hover {
     left: 150px;
     position: absolute;
 }
-/*cover text*/
+
+/*Home page welcome sub-heading*/
+
+.sub-heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;  
+}
+
+/*Home page section 2*/
+
+.container {
+	margin: 0 auto;
+	overflow: none;
+	padding: 10px;
+    display: block;
+    background-color: rgba(127, 217, 245, 0.8);
+    height: auto;
+    width: 80%;
+}
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 5px;
+}
 
+@media(min-width: 768px) {
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  
 }
 
 .grid .item {
@@ -281,142 +294,25 @@ nav a:hover {
     padding: 10px;
 }
 
-
-
-
-/*gym creed*/
-#gym-creed h1{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    position: relative;    
-}
-#gym-creed{
-    height: 600px;
-    width:100%;
-    text-align:center;
-}
-#left-creed{
-    padding-top: 30px;
-    width: 28%;
-    float:left;
-}
-#right-creed{
-    padding-top: 30px;
-    width: 28%;
-    float: right;
-}
-#center-creed{
-    padding-top: 30px;
-    display: inline-block;
-    margin:0 auto;
-    width:44%;
-}
-hr {
-    border-top: 5px solid rgb(85, 85, 85);
-    width: 50%;
-    margin: 5px 0;
-}
-.left-creed-heading {
-    width: 33%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;    
-}
-
-/* orginal code for creed layout
-#gym-creed h1{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    position: relative;    
-}
-#gym-creed{
-    height: 600px;
-    width:100%;
-    text-align:center;
-}
-#left-creed{
-    padding-top: 30px;
-    width: 28%;
-    float:left;
-}
-#right-creed{
-    padding-top: 30px;
-    width: 28%;
-    float: right;
-}
-#center-creed{
-    padding-top: 30px;
-    display: inline-block;
-    margin:0 auto;
-    width:44%;
-}
-hr {
-    border-top: 5px solid rgb(85, 85, 85);
-    width: 50%;
-    margin: 5px 0;
-}
-.left-creed-heading {
-    width: 33%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;    
-}
-*/
-
-
-/*affects contact page*/
-.left-creed-heading-map{
-    padding-top: 50px;
-}
-.center-creed-heading-padding{
-    padding-top: 50px;
-}
-.right-creed-heading-padding{
-    padding-top: 50px;
-}
-/*affects contact page*/
-.right-creed-heading {
-    width: 33%;
-    float: left;
-    line-height:20px;
-    clear:both;
-    margin-bottom:50px;
-}
-/*affects contact page*/
-.right-creed-heading p{
-    padding-bottom: 15px;
-}
-.center-creed-heading {
-    width: 33%;
-    display: inline-block;
-    margin:0 auto;
-    line-height:20px;
-    clear:both;
-    margin-bottom:50px;
-}
-/*affects contact page*/
-.center-creed-heading p{
-    padding-bottom: 15px;
-}
-h2 {
+.grid h2 {
     color: rgb(85, 85, 85);
     font-family: 'Acme', sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
 }
-.container{
-    background-color: rgba(127, 217, 245, 0.8);
-    height: 400px;
-    width: 80%;
-    overflow: hidden;
-    display: inline-block;
+
+.grid p {
+    text-align: center;
+    padding-bottom: 10px;
 }
-/* gym creed end*/
+
+
+/*------------------------------------------------------------*/
+
 /* social networks*/
 .footer{
     height: 50%;
+    
 }
 .social-media {
     text-align: center;
@@ -425,7 +321,7 @@ h2 {
 .social-media li {
     display: inline;
     position: relative;
-    top: -50px;
+    
 }
 .social-media i {
     font-size: 250%;
@@ -434,6 +330,7 @@ h2 {
     color: rgb(85, 85, 85);
 }
 /*end social networks*/
+
 /*About gallery*/
 .gallery-padding{
 height: auto;
@@ -501,21 +398,19 @@ button:hover::before{
     height: 180%;
 }
 /*About gallery finished*/
+
+
 /*contact form*/
+
 .contact-section{
     height: 700px;
-    width: 90%;
-    overflow: hidden;
-    position: relative;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/black&whitegym.jpg) no-repeat center;    
+    width: 100%;    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/black&whitegym2.jpg) no-repeat center;    
     background-size: cover;
-    border-radius: 15px;
-    padding: 40px 0px;
-    text-align: center;
-    margin: 10px;
-    left: 80px;    
+ 
 }
 .contact-section h1{
+    padding-top: 20px;
     text-align: center;
     color: white;
 }
@@ -568,6 +463,7 @@ textarea,contact-form-text{
     background: rgb(52, 73, 94)
 }
 /*contact form end*/
+
 /*pricing html*/
 .pricing-container{
     height: 700px;
