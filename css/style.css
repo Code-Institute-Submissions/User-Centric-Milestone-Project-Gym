@@ -267,6 +267,23 @@ nav a:hover {
     position: absolute;
 }
 /*cover text*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+
+}
+
+.grid .item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+
+
 /*gym creed*/
 #gym-creed h1{
     text-align: center;
@@ -307,6 +324,50 @@ hr {
     clear: both;
     margin-bottom: 50px;    
 }
+
+/* orginal code for creed layout
+#gym-creed h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;    
+}
+#gym-creed{
+    height: 600px;
+    width:100%;
+    text-align:center;
+}
+#left-creed{
+    padding-top: 30px;
+    width: 28%;
+    float:left;
+}
+#right-creed{
+    padding-top: 30px;
+    width: 28%;
+    float: right;
+}
+#center-creed{
+    padding-top: 30px;
+    display: inline-block;
+    margin:0 auto;
+    width:44%;
+}
+hr {
+    border-top: 5px solid rgb(85, 85, 85);
+    width: 50%;
+    margin: 5px 0;
+}
+.left-creed-heading {
+    width: 33%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;    
+}
+*/
+
+
 /*affects contact page*/
 .left-creed-heading-map{
     padding-top: 50px;
