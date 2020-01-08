@@ -33,12 +33,13 @@ ul {
 header img{
     float: left;
     left: auto;
+    height: 200px;
+    width: 250px;
     }
 header{
     margin: 0;
     padding: 0;
 }
-
 
 /* ------- New Nav Style Mob */
 
@@ -154,7 +155,7 @@ header{
 }
 
 .menu-wrap .menu > div {
-  background: var(--overlay-color);
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) );
   border-radius: 50%;
   width: 200vw;
   height: 200vw;
@@ -176,7 +177,7 @@ header{
 
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
-  color: rgb(85, 85, 85);
+  color: whitesmoke;
   font-size: 1.5rem;
   padding: 1rem;
 }
@@ -188,7 +189,7 @@ header{
 }
 
 .active{
-    border-bottom: 1px solid rgb(119, 119, 119);
+    border-bottom: 1px solid whitesmoke;
 }
 
 /* - - - - Orginal Nav Setup */
