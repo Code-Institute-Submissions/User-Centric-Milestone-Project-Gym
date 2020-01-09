@@ -19,7 +19,7 @@ h1{
 h3{
     font-family: 'Permanent Marker', cursive;
 }
-/*header*/
+/*-------header*/
 ul {
     font-size: 110%;
     list-style-type: none;
@@ -194,7 +194,7 @@ header{
     border-bottom: 1px solid whitesmoke;
 }
 
-/*Home page hero image */
+/*----------Home page hero image */
 
 #hero-outer{
   height: 700px;
@@ -224,7 +224,7 @@ header{
 
 /*end hero image*/
 
-/*cover text*/
+/*-------cover text*/
 
 #cover-text-1 {
     font-size: 115%;
@@ -332,36 +332,19 @@ header{
 /*end social networks*/
 
 /*About gallery*/
-.gallery-padding{
-height: auto;
-width: 100%;
-overflow: hidden;
-display: inline-block;
-position: relative;
-bottom: 150px;
-left: 20px;
-padding-top: 15px;
-padding-bottom: 25px;
-border-radius: 15px;
-}
-.gallery-padding {
-    text-align: center;
-    color:rgb(85, 85, 85);  
-}
-.gallery-padding img{
-    border-radius: 15px;
-}
-.gallery-padding h2{
-    padding-bottom: 15px;
-}
-.gallery-color{
-    background-color: rgba(127, 217, 245, 0.5);
-}
-section img {
-    border: 2px solid rgb(85, 85, 85);    
-}
+
+
+
+
+
+
+
+/* ------- Gallery Timetable button --- */
+
 .btn-container{
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .button {
   background-color: rgba(127, 217, 245, 0.2);
@@ -369,7 +352,6 @@ section img {
   padding: 15px 25px;
   font-family: "montserrat";
   cursor: pointer;
-  top: -50px;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -464,7 +446,7 @@ textarea,contact-form-text{
 }
 /*contact form end*/
 
-/*pricing html*/
+/*---------------------------------------pricing html*/
 .pricing-container{
     height: 700px;
     width: 75%;
