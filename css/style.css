@@ -331,6 +331,17 @@ header{
 /*end social networks*/
 
 /*About gallery*/
+
+.bodybackground{
+    background: url(../img/pullup1.jpeg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    z-index: -1;
+    
+}
+
 .gallery {
     justify-content: center;
     text-align: center;
@@ -341,18 +352,34 @@ header{
     text-align: center;
 }
 .container1 {
+
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    justify-content: center;
+    */
     justify-items: center;
     grid-gap: 10px;
     background-color: rgba(127, 217, 245, 0.4);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+@media(max-width: 1024px) {
+    .container1{
+        grid-template-columns: repeat(2, 1fr);
+    }  
+}
+
+@media(max-width: 414px) {
+    .container1{
+        grid-template-columns: 1fr;
+    }  
 }
 
 item1 {
     width: 100%;
     overflow: hidden;
-
 }
 
 
