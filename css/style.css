@@ -335,17 +335,28 @@ header{
 .bodybackground{
     background: url(../img/pullup1.jpeg);
     background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center bottom;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: top;
+    
     z-index: -1;
     
 }
+/* incase i need to change size on other devices
 
+@media(min-width: 768px) {
+    .bodybackground{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    }  
+}
+*/
 .gallery {
     justify-content: center;
     text-align: center;
 }
+
 .gallery h2 {
     padding-top: 210px;
     padding-bottom: 30px;
@@ -360,8 +371,8 @@ header{
     */
     justify-items: center;
     grid-gap: 10px;
-    background-color: rgba(127, 217, 245, 0.4);
-    padding: 15px;
+    background-color: rgba(127, 217, 245, 0.2);
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -393,6 +404,7 @@ item1 {
     padding-bottom: 30px;
     text-align: center;
 }
+
 
 
 /* ------- Gallery Timetable button --- */
