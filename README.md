@@ -1,8 +1,13 @@
-# Your Project's Name
+# Electric Fitness
 
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
+
+Code Institute Milestone Project - User Centric Frontend Development
+ 
+ 
+ 
  
 ## UX
  
