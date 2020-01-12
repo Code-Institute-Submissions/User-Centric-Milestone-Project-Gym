@@ -64,11 +64,11 @@ In this section i introduce the technologies i have used to build the Gym websit
 
 I started testing by going through the user stories.
 
--First the 'Owner' story. The intended outcome was achieved with a simple, consistant and reasoned navigation menu, a responsive website that sets the information across clearly such as classes facilities and cost. With images in each page to draw the user in.
+- First the 'Owner' story. The intended outcome was achieved with a simple, consistant and reasoned navigation menu, a responsive website that sets the information across clearly such as classes facilities and cost. With images in each page to draw the user in.
 
 - Next the 'Current Membership' user story achieved a satisfactory result by presenting membership pricing with what each person gets as a direct result of their membership and reminders of what the gym looks like and the staff who run it.
 
--The last user story 'Potential Member' accomplished the objectives laid out. Done by creating a simple to navigate website, with images of classes, facilities and staff with the needed information such as location, contact details and prices. The contact forms fields have the required notice set on name and email and once set a notice appears to let the user know no information was sent due to being a demo. The Website was tested on various screen sizes to make sure its was responsive and test on various browsers including Chrome, Firefor, Microsoft Edge.
+- The last user story 'Potential Member' accomplished the objectives laid out. Done by creating a simple to navigate website, with images of classes, facilities and staff with the needed information such as location, contact details and prices. The contact forms fields have the required notice set on name and email and once set a notice appears to let the user know no information was sent due to being a demo. The Website was tested on various screen sizes to make sure its was responsive and test on various browsers including Chrome, Firefor, Microsoft Edge.
 
 During the testing of the website i also used the following Tools:
 
