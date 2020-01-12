@@ -1,6 +1,6 @@
 # Electric Fitness
 
-This is my gym demo site created to display my use of HTML and CSS to potential employers and clients. It is created with the idea of producing a viable product for a client i.e Electric Fitness owner so that he/she can attract new members to their Gym, retain current members and get across the information needed to get to their client such as; opening hours, classes, location and facilities. All done in a responsive format. 
+This is my gym demo site created to display my use of HTML and CSS to potential employers and clients. It is created with the idea of producing a viable product for a client i.e Electric Fitness owner so that he/she can attract new members to their Gym, retain current members and get across the information needed to get to their client such as opening hours, classes, location and facilities. All done in a responsive format. 
  
  
 ## UX
@@ -87,7 +87,7 @@ Go to the repository on GitHub:
 Go to Settings.
 GitHub Pages.
 Select the master branch.
-The website being deployed and can be found at:
+The website being deployed and can be found at:https://wonka86.github.io/User-Centric-Milestone-Project-Gym/index.html
 
 ### Local
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone 'https://github.com/Wonka86/User-Centric-Milestone-Project' into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
