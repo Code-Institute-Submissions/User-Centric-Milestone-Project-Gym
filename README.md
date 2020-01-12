@@ -90,7 +90,7 @@ Select the master branch.
 The website being deployed and can be found at:https://wonka86.github.io/User-Centric-Milestone-Project-Gym/index.html
 
 ### Local
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone 'https://github.com/Wonka86/User-Centric-Milestone-Project' into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone 'https://github.com/Wonka86/User-Centric-Milestone-Project-Gym' into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credits
 
