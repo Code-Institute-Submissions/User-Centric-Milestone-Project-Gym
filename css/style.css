@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Acme|Indie+Flower|Permanent+Marker&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -76,7 +77,7 @@ header{
   align-items: center;
   justify-content: center;
 }
-/*-------- Hamburger Line */
+/*-------- Hamburger Line*/
 .menu-wrap .hamburger > div {
   position: relative;
   flex: none;
@@ -122,7 +123,7 @@ header{
 }
 .menu-wrap .toggler:checked ~ .menu > div {
   transform: scale(1);
-  transition-duration: var(--menu-speed);
+ 
 }
 .menu-wrap .toggler:checked ~ .menu > div > div {
   opacity: 1;
@@ -210,6 +211,22 @@ header{
     right: 150px;
     position: absolute;
 }
+
+@media only screen and (max-width: 414px){
+   #cover-text-1 {
+    font-size: 80%;
+    bottom: 60px;
+    right: 40px;
+    height: 150px;
+    }
+    }
+
+    @media only screen and (max-width: 1024px){
+   #cover-text-1 {    
+    right: 80px;
+    }
+    }
+
 #cover-text-2 {
     font-size: 130%;
     text-transform: uppercase;
@@ -222,7 +239,23 @@ header{
     Top: 60px;
     left: 150px;
     position: absolute;
-}
+    }
+
+@media only screen and (max-width: 414px){
+   #cover-text-2{
+    font-size: 80%;
+    height: 150px;
+    Top: 60px;
+    left: 30px;
+    }
+    }
+
+    @media only screen and (max-width: 1024px){
+        #cover-text-2{    
+        left: 80px;
+    }
+    }
+
 /*Home page welcome sub-heading*/
 .sub-heading {
     text-align: center;
@@ -422,7 +455,7 @@ textarea,contact-form-text{
     padding: 12px 40px;
     border-radius: 20px;
     cursor: pointer;
-    transition: O.5s;    
+    transition: 0.5s;    
 }
 .contact-form-btn:hover{
     background: rgb(52, 73, 94)
