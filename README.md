@@ -28,7 +28,7 @@ My Objective in this design was to create a simple usable website first. Make it
 
 ## Features
 
-The following section outline implement features and futures features to be implemented
+The following section outlines implemented features and future features to be implemented
  
 ### Existing Features
 
