@@ -416,19 +416,42 @@ button:hover::before{
 
 /*----------------TimeTable.html styling*/
 
-#flex-container {
-  display: flex;
-  flex-wrap: nowrap;
-  background-color: DodgerBlue;
+.time{
+    text-align: center;
+    background-color: rgba(127, 217, 245, 0.2);    
 }
 
-#flex-container > div {
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(127, 217, 245, 0.2);
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
+  width: 60%;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  
+}
+
+.flex-container h2{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color: rgba(77, 86, 126, 0.4);
+}
+
+.flex-container p{
+    font-size: 80%;
+}
+
+.day-color{
+   background-color: rgba(127, 217, 245, 0.2);
 }
 
 /*About gallery finished*/
