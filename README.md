@@ -27,7 +27,7 @@ My Objective in this design was to create a simple usable website first. Make it
  I created mock ups for both desktop and mobile before commencement of coding website.
  
  - Desktop About 
- ![](wireframes/Gym%20About.jpg)
+<img src="wireframes/Gym%20About.jpg" width="200">
 
 ## Features
 
