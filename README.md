@@ -25,6 +25,9 @@ My Objective in this design was to create a simple usable website first. Make it
 
 - [Wireframes](https://github.com/Wonka86/User-Centric-Milestone-Project/tree/master/wireframes)
  I created mock ups for both desktop and mobile before commencement of coding website.
+ 
+ - Desktop About 
+ ![](wireframes/Gym%20About.jpg)
 
 ## Features
 
@@ -52,8 +55,6 @@ In this section i introduce the technologies i have used to build the Gym websit
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - markup language for the structure and presentation of World Wide Web contents.
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - used to format the layout of Web pages.
-- [Gitpod](https://www.gitpod.io/) - A hosted Web IDE based on the renowned Visual Studio Code-based IDE Theia used to code the project.
-- [Github](https://github.com/) - provides hosting for software development version control using Git.
 - [Font Awesome](https://fontawesome.com/) - Toolkit used to style website with icons.
 - [Image Hover](https://www.imagehover.io/) - Toolkit used to create hover effects on images.
 - [Google Fonts](https://fonts.google.com/) - a font and icon toolkit.
