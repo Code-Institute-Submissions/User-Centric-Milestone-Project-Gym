@@ -24,7 +24,7 @@ My Objective in this design was to create a simple usable website first. Make it
 ## Wireframes
 
 - [Wireframes](https://github.com/Wonka86/User-Centric-Milestone-Project/tree/master/wireframes)
- I created mock ups for both desktop and mobile before commencement of coding website.
+ I created mock ups for both desktop and mobile before commencement of coding website which has since been redesigned through the process.
  
  - Desktop Landing
 <img src="wireframes/Gym%20Landing%20page.jpg" width="600">
