@@ -112,4 +112,4 @@ To run locally, you can clone this repository directly into the editor of your c
 
 ### Acknowledgements
 
-Code Institute Class Project for inspiration for simple design, brad traversy (nav & grid), w3schools.com for when i got a brain freeze, and my Mentor Victor Miclovich fo keeping me calm and directing me to where i needed to go.
+Code Institute Class Project for inspiration for simple design, brad traversy (nav menu & grid design), w3schools.com for when i got a brain freeze, and my Mentor Victor Miclovich for keeping me calm and directing me to where i needed to go.
