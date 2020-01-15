@@ -330,10 +330,11 @@ header{
     justify-content: center;
     text-align: center;
 }
-.gallery h2 {
+.gallery-pad {
     padding-top: 210px;
     padding-bottom: 30px;
     text-align: center;
+    font-size: 150%;
 }
 .container1 {
     display: grid;
